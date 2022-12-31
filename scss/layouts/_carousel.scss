@@ -1,0 +1,19 @@
+#carousel {
+    background-image: url("./../../images/product-header-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: $pd-2 0;
+
+    h1 {
+        @include style-text($color-blue-2, $fs-4, $fw-3);
+    }
+
+    h3 {
+        @include style-text($color-dark-2, $fs-5, $fw-2);
+    }
+
+    p {
+        margin-top: $mg-1;
+        @include style-text($color-dark-1, $fs-1, $fw-1);
+    }
+}
